@@ -1,0 +1,26 @@
+{
+  "name": "card-gorilla-database",
+  "version": "1.0.0",
+  "description": "카드 고릴라 API를 이용한 카드 정보 데이터베이스 구축",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "collect": "node src/collector.js",
+    "schedule": "node src/scheduler.js"
+  },
+  "keywords": ["card", "database", "api", "card-gorilla"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
