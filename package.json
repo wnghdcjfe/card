@@ -7,20 +7,27 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "collect": "node src/collector.js",
-    "schedule": "node src/scheduler.js"
+    "schedule": "node src/scheduler.js",
+    "scrape:detail": "node src/scrapeCardDetail.js"
   },
-  "keywords": ["card", "database", "api", "card-gorilla"],
+  "keywords": [
+    "card",
+    "database",
+    "api",
+    "card-gorilla"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.0",
-    "node-cron": "^3.0.3",
-    "dotenv": "^16.3.1",
-    "moment": "^2.29.4"
+    "node-cron": "^3.0.3"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "puppeteer": "^22.15.0"
   }
 }
