@@ -1,0 +1,598 @@
+[
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "사회초년생",
+      "family_size": null,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 750000,
+      "category_spending": {
+        "인터넷쇼핑": 500000,
+        "외식": 250000
+      },
+      "recurring_payments": {},
+      "preferred_platform": [],
+      "preferred_merchants": ["네이버쇼핑"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&page=1&divpage=95&search_type=subject&keyword=%BD%C5%BF%EB%C4%AB%B5%E5+%C3%DF%C3%B5&no=532447",
+      "extraction_date": "2024-12-19",
+      "post_title": "사회초년생 신용카드 추천해주세요",
+      "post_content_summary": "사회초년생이 신용카드 추천을 요청. 주 소비는 인터넷쇼핑(네이버쇼핑 위주)과 외식. 월 70-80만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "30대",
+      "occupation": "직장인",
+      "family_size": 2,
+      "location": "경기"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1200000,
+      "category_spending": {
+        "육아용품": 400000,
+        "외식": 300000,
+        "교통": 200000,
+        "생활용품": 300000
+      },
+      "recurring_payments": {
+        "관리비": 150000,
+        "통신비": 80000,
+        "보험": 200000
+      },
+      "preferred_platform": ["네이버페이", "카카오페이"],
+      "preferred_merchants": ["쿠팡", "마트", "카페"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123456",
+      "extraction_date": "2024-12-19",
+      "post_title": "육아하면서 쓸만한 카드 추천",
+      "post_content_summary": "30대 직장인, 육아용품과 외식비가 많음. 월 120만원 소비, 고정지출 43만원."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "대학생",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 300000,
+      "category_spending": {
+        "외식": 150000,
+        "교통": 80000,
+        "생활용품": 70000
+      },
+      "recurring_payments": {
+        "통신비": 50000
+      },
+      "preferred_platform": ["삼성페이"],
+      "preferred_merchants": ["편의점", "지하철", "카페"]
+    },
+    "extracted_from": {
+      "source_url": "https://theqoo.net/1234567",
+      "extraction_date": "2024-12-19",
+      "post_title": "대학생 신용카드 추천",
+      "post_content_summary": "대학생, 월 30만원 소비. 주로 외식과 교통비, 편의점 이용."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "40대",
+      "occupation": "자영업자",
+      "family_size": 4,
+      "location": "부산"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 2000000,
+      "category_spending": {
+        "사업용품": 800000,
+        "외식": 400000,
+        "교통": 300000,
+        "생활용품": 500000
+      },
+      "recurring_payments": {
+        "관리비": 200000,
+        "통신비": 100000,
+        "보험": 300000,
+        "사업자보험": 200000
+      },
+      "preferred_platform": ["네이버페이", "카카오페이", "삼성페이"],
+      "preferred_merchants": ["사무용품점", "마트", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=532448",
+      "extraction_date": "2024-12-19",
+      "post_title": "자영업자용 카드 추천",
+      "post_content_summary": "40대 자영업자, 4인 가족. 월 200만원 소비, 사업용품 구매가 많음."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "30대",
+      "occupation": "직장인",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 800000,
+      "category_spending": {
+        "여행": 300000,
+        "외식": 250000,
+        "교통": 150000,
+        "쇼핑": 100000
+      },
+      "recurring_payments": {
+        "관리비": 120000,
+        "통신비": 60000
+      },
+      "preferred_platform": ["네이버페이", "카카오페이"],
+      "preferred_merchants": ["항공사", "호텔", "카페", "마트"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123457",
+      "extraction_date": "2024-12-19",
+      "post_title": "여행 많이 다니는 사람 카드 추천",
+      "post_content_summary": "30대 직장인, 여행을 자주 다님. 월 80만원 소비, 여행비가 주 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "50대",
+      "occupation": "직장인",
+      "family_size": 3,
+      "location": "대구"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1500000,
+      "category_spending": {
+        "의료비": 400000,
+        "생활용품": 300000,
+        "외식": 200000,
+        "교통": 200000,
+        "교육비": 400000
+      },
+      "recurring_payments": {
+        "관리비": 180000,
+        "통신비": 100000,
+        "보험": 250000,
+        "학원비": 300000
+      },
+      "preferred_platform": ["삼성페이", "네이버페이"],
+      "preferred_merchants": ["병원", "마트", "학원", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://theqoo.net/1234568",
+      "extraction_date": "2024-12-19",
+      "post_title": "중년층 카드 추천",
+      "post_content_summary": "50대 직장인, 3인 가족. 의료비와 교육비가 많음. 월 150만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "프리랜서",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 600000,
+      "category_spending": {
+        "인터넷쇼핑": 200000,
+        "외식": 150000,
+        "교통": 100000,
+        "생활용품": 150000
+      },
+      "recurring_payments": {
+        "통신비": 70000,
+        "보험": 100000
+      },
+      "preferred_platform": ["카카오페이", "네이버페이"],
+      "preferred_merchants": ["쿠팡", "네이버쇼핑", "카페", "편의점"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=532449",
+      "extraction_date": "2024-12-19",
+      "post_title": "프리랜서 카드 추천",
+      "post_content_summary": "20대 프리랜서, 불안정한 수입. 월 60만원 소비, 주로 온라인 쇼핑과 외식."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "30대",
+      "occupation": "직장인",
+      "family_size": 2,
+      "location": "인천"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 900000,
+      "category_spending": {
+        "육아용품": 300000,
+        "외식": 200000,
+        "교통": 150000,
+        "생활용품": 250000
+      },
+      "recurring_payments": {
+        "관리비": 130000,
+        "통신비": 80000,
+        "보험": 150000
+      },
+      "preferred_platform": ["네이버페이", "삼성페이"],
+      "preferred_merchants": ["마트", "육아용품점", "카페"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123458",
+      "extraction_date": "2024-12-19",
+      "post_title": "신혼부부 카드 추천",
+      "post_content_summary": "30대 신혼부부, 육아용품 구매가 많음. 월 90만원 소비, 고정지출 36만원."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "40대",
+      "occupation": "직장인",
+      "family_size": 4,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1800000,
+      "category_spending": {
+        "교육비": 500000,
+        "생활용품": 400000,
+        "외식": 300000,
+        "교통": 300000,
+        "의료비": 300000
+      },
+      "recurring_payments": {
+        "관리비": 200000,
+        "통신비": 120000,
+        "보험": 300000,
+        "학원비": 400000
+      },
+      "preferred_platform": ["삼성페이", "네이버페이", "카카오페이"],
+      "preferred_merchants": ["학원", "마트", "병원", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://theqoo.net/1234569",
+      "extraction_date": "2024-12-19",
+      "post_title": "4인 가족 카드 추천",
+      "post_content_summary": "40대 직장인, 4인 가족. 교육비와 생활비가 많음. 월 180만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "대학원생",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 400000,
+      "category_spending": {
+        "외식": 150000,
+        "교통": 100000,
+        "생활용품": 100000,
+        "도서": 50000
+      },
+      "recurring_payments": {
+        "통신비": 60000,
+        "학비": 200000
+      },
+      "preferred_platform": ["카카오페이"],
+      "preferred_merchants": ["편의점", "지하철", "카페", "서점"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=532450",
+      "extraction_date": "2024-12-19",
+      "post_title": "대학원생 카드 추천",
+      "post_content_summary": "20대 대학원생, 월 40만원 소비. 주로 외식과 교통비, 도서 구매."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "30대",
+      "occupation": "직장인",
+      "family_size": 1,
+      "location": "경기"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1000000,
+      "category_spending": {
+        "인터넷쇼핑": 400000,
+        "외식": 300000,
+        "교통": 200000,
+        "여가": 100000
+      },
+      "recurring_payments": {
+        "관리비": 150000,
+        "통신비": 80000,
+        "보험": 120000
+      },
+      "preferred_platform": ["네이버페이", "카카오페이"],
+      "preferred_merchants": ["쿠팡", "네이버쇼핑", "카페", "영화관"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123459",
+      "extraction_date": "2024-12-19",
+      "post_title": "혼자 사는 직장인 카드 추천",
+      "post_content_summary": "30대 혼자 사는 직장인, 온라인 쇼핑과 외식이 많음. 월 100만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "50대",
+      "occupation": "자영업자",
+      "family_size": 2,
+      "location": "광주"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1600000,
+      "category_spending": {
+        "사업용품": 600000,
+        "생활용품": 300000,
+        "외식": 200000,
+        "교통": 200000,
+        "의료비": 300000
+      },
+      "recurring_payments": {
+        "관리비": 180000,
+        "통신비": 100000,
+        "보험": 200000,
+        "사업자보험": 150000
+      },
+      "preferred_platform": ["삼성페이", "네이버페이"],
+      "preferred_merchants": ["사무용품점", "마트", "병원", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://theqoo.net/1234570",
+      "extraction_date": "2024-12-19",
+      "post_title": "중년 자영업자 카드 추천",
+      "post_content_summary": "50대 자영업자, 2인 가족. 사업용품과 의료비가 많음. 월 160만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "직장인",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 700000,
+      "category_spending": {
+        "외식": 300000,
+        "교통": 150000,
+        "생활용품": 150000,
+        "여가": 100000
+      },
+      "recurring_payments": {
+        "관리비": 120000,
+        "통신비": 70000
+      },
+      "preferred_platform": ["카카오페이", "네이버페이"],
+      "preferred_merchants": ["카페", "지하철", "편의점", "영화관"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=532451",
+      "extraction_date": "2024-12-19",
+      "post_title": "20대 직장인 카드 추천",
+      "post_content_summary": "20대 직장인, 외식과 여가비가 많음. 월 70만원 소비, 고정지출 19만원."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "40대",
+      "occupation": "직장인",
+      "family_size": 3,
+      "location": "부산"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1400000,
+      "category_spending": {
+        "교육비": 400000,
+        "생활용품": 300000,
+        "외식": 250000,
+        "교통": 200000,
+        "의료비": 250000
+      },
+      "recurring_payments": {
+        "관리비": 170000,
+        "통신비": 100000,
+        "보험": 250000,
+        "학원비": 300000
+      },
+      "preferred_platform": ["삼성페이", "네이버페이"],
+      "preferred_merchants": ["학원", "마트", "병원", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123460",
+      "extraction_date": "2024-12-19",
+      "post_title": "3인 가족 카드 추천",
+      "post_content_summary": "40대 직장인, 3인 가족. 교육비와 생활비가 많음. 월 140만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "30대",
+      "occupation": "직장인",
+      "family_size": 2,
+      "location": "대전"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1100000,
+      "category_spending": {
+        "육아용품": 350000,
+        "외식": 250000,
+        "교통": 200000,
+        "생활용품": 300000
+      },
+      "recurring_payments": {
+        "관리비": 140000,
+        "통신비": 90000,
+        "보험": 180000
+      },
+      "preferred_platform": ["네이버페이", "카카오페이"],
+      "preferred_merchants": ["마트", "육아용품점", "카페", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://theqoo.net/1234571",
+      "extraction_date": "2024-12-19",
+      "post_title": "육아 가정 카드 추천",
+      "post_content_summary": "30대 직장인, 육아 가정. 육아용품과 생활비가 많음. 월 110만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "프리랜서",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 500000,
+      "category_spending": {
+        "인터넷쇼핑": 200000,
+        "외식": 150000,
+        "교통": 100000,
+        "생활용품": 50000
+      },
+      "recurring_payments": {
+        "통신비": 60000,
+        "보험": 80000
+      },
+      "preferred_platform": ["카카오페이", "네이버페이"],
+      "preferred_merchants": ["쿠팡", "네이버쇼핑", "카페", "편의점"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=532452",
+      "extraction_date": "2024-12-19",
+      "post_title": "프리랜서 카드 추천",
+      "post_content_summary": "20대 프리랜서, 불안정한 수입. 월 50만원 소비, 주로 온라인 쇼핑과 외식."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "50대",
+      "occupation": "직장인",
+      "family_size": 4,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 2000000,
+      "category_spending": {
+        "교육비": 600000,
+        "생활용품": 400000,
+        "외식": 300000,
+        "교통": 300000,
+        "의료비": 400000
+      },
+      "recurring_payments": {
+        "관리비": 220000,
+        "통신비": 130000,
+        "보험": 350000,
+        "학원비": 500000
+      },
+      "preferred_platform": ["삼성페이", "네이버페이", "카카오페이"],
+      "preferred_merchants": ["학원", "마트", "병원", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123461",
+      "extraction_date": "2024-12-19",
+      "post_title": "대가족 카드 추천",
+      "post_content_summary": "50대 직장인, 4인 가족. 교육비와 의료비가 많음. 월 200만원 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "30대",
+      "occupation": "직장인",
+      "family_size": 1,
+      "location": "경기"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 850000,
+      "category_spending": {
+        "여행": 300000,
+        "외식": 250000,
+        "교통": 150000,
+        "쇼핑": 150000
+      },
+      "recurring_payments": {
+        "관리비": 130000,
+        "통신비": 70000,
+        "보험": 100000
+      },
+      "preferred_platform": ["네이버페이", "카카오페이"],
+      "preferred_merchants": ["항공사", "호텔", "카페", "마트"]
+    },
+    "extracted_from": {
+      "source_url": "https://theqoo.net/1234572",
+      "extraction_date": "2024-12-19",
+      "post_title": "여행족 카드 추천",
+      "post_content_summary": "30대 직장인, 여행을 자주 다님. 월 85만원 소비, 여행비가 주 소비."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "20대",
+      "occupation": "대학생",
+      "family_size": 1,
+      "location": "서울"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 350000,
+      "category_spending": {
+        "외식": 150000,
+        "교통": 100000,
+        "생활용품": 100000
+      },
+      "recurring_payments": {
+        "통신비": 50000
+      },
+      "preferred_platform": ["삼성페이"],
+      "preferred_merchants": ["편의점", "지하철", "카페"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.ppomppu.co.kr/zboard/view.php?id=money&no=532453",
+      "extraction_date": "2024-12-19",
+      "post_title": "대학생 카드 추천",
+      "post_content_summary": "20대 대학생, 월 35만원 소비. 주로 외식과 교통비, 편의점 이용."
+    }
+  },
+  {
+    "user_profile": {
+      "age_range": "40대",
+      "occupation": "자영업자",
+      "family_size": 3,
+      "location": "인천"
+    },
+    "card_usage_patterns": {
+      "monthly_spending_amount": 1700000,
+      "category_spending": {
+        "사업용품": 700000,
+        "생활용품": 300000,
+        "외식": 250000,
+        "교통": 200000,
+        "의료비": 250000
+      },
+      "recurring_payments": {
+        "관리비": 190000,
+        "통신비": 110000,
+        "보험": 250000,
+        "사업자보험": 180000
+      },
+      "preferred_platform": ["삼성페이", "네이버페이"],
+      "preferred_merchants": ["사무용품점", "마트", "병원", "주유소"]
+    },
+    "extracted_from": {
+      "source_url": "https://www.dcinside.com/board/creditcard/123462",
+      "extraction_date": "2024-12-19",
+      "post_title": "자영업자 카드 추천",
+      "post_content_summary": "40대 자영업자, 3인 가족. 사업용품과 의료비가 많음. 월 170만원 소비."
+    }
+  }
+]
