@@ -205,6 +205,33 @@ class CardGorillaAPI {
         return field || null;
       };
 
+      // 값(any)을 안전하게 문자열 배열로 변환
+      const toStringArray = (value) => {
+        if (!value) return [];
+        if (typeof value === 'string') {
+          // JSON 배열 문자열 시도
+          try {
+            const parsed = JSON.parse(value);
+            if (Array.isArray(parsed)) return parsed.map(v => String(v ?? ''));
+            // 단일 문자열은 단일 요소 배열로
+            return [value];
+          } catch {
+            return [value];
+          }
+        }
+        if (Array.isArray(value)) return value.map(v => String(v ?? ''));
+        // 기타 타입은 문자열화 후 단일 요소 배열로
+        return [String(value)];
+      };
+
+      const corpObject = (() => {
+        const corp = parseJsonField(rawData.corp) || {};
+        // 중첩 필드 보정: 문자열/JSON 문자열/배열 모두 허용 → 최종적으로 문자열 배열 유지
+        corp.pr_detail_img = toStringArray(corp.pr_detail_img);
+        corp.pr_detail_img_chk = toStringArray(corp.pr_detail_img_chk);
+        return corp;
+      })();
+
       return {
         card_idx: rawData.card_idx || rawData.idx,
         name: rawData.name || rawData.no_cmt || '',
@@ -218,7 +245,7 @@ class CardGorillaAPI {
         compared: rawData.compared || 0,
         is_visible: rawData.is_visible || 0,
         pr_view_mode: rawData.pr_view_mode || 0,
-        corp: parseJsonField(rawData.corp)
+        corp: corpObject
       };
     } catch (error) {
       console.error('데이터 정규화 오류:', error);
